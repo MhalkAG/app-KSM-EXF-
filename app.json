@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "KSM Ropa Artesanal",
+    "slug": "app-ksm-exf",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo-ksm.png",
+    "scheme": "ksmapp",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "icon": "./assets/images/logo-ksm.png"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0F1115",
+        "foregroundImage": "./assets/images/logo-ksm.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/logo-ksm.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0F1115",
+          "image": "./assets/images/logo-ksm.png",
+          "imageWidth": 200,
+          "resizeMode": "contain"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
